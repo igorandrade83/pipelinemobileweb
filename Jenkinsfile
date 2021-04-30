@@ -19,7 +19,8 @@ pipeline {
         stage('Maven and Docker Build') {
             steps {
                 sh '''
-                   docker build -t ${CRONAPP_DOCKER_IMAGE_NAME}:${CRONAPP_TAG_VERSION}-${CRONAPP_TIER} --build-arg TIER=${CRONAPP_TIER} --build-arg CONTEXT_USE=${CRONAPP_USE_CONTEXT} --build-arg HAS_MOBILE=${CRONAPP_HAS_MOBILE} .
+                    docker build --target maven_builder -t maven_builder:latest .
+                   docker build --target application -t ${CRONAPP_DOCKER_IMAGE_NAME}:${CRONAPP_TAG_VERSION}-${CRONAPP_TIER} --build-arg TIER=${CRONAPP_TIER} --build-arg CONTEXT_USE=${CRONAPP_USE_CONTEXT} --build-arg HAS_MOBILE=${CRONAPP_HAS_MOBILE} .
                 '''
             }
         }
