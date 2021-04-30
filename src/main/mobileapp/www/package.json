@@ -1,0 +1,17 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).",
+  "main": "cordova.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cronapi-js": "git+https://github.com/technecloud/cronapi-js.git#71e69a69e4c0c5d3edc6f312c6427005f6240c6b",
+    "cronapp-common-js": "git+https://github.com/CronApp/cronapp-common-js.git#6c090d10943938fb134ba3efa1daf66cf9150a8f",
+    "cronapp-framework-mobile-js": "git+https://github.com/technecloud/cronapp-framework-mobile-js.git#929702354bdf79764078bc5e9aedc7aebf4a8e41"
+  }
+}
