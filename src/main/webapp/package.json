@@ -10,9 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cronapi-js": "git+https://github.com/technecloud/cronapi-js.git#71e69a69e4c0c5d3edc6f312c6427005f6240c6b",
-    "cronapp-common-js": "git+https://github.com/CronApp/cronapp-common-js.git#6c090d10943938fb134ba3efa1daf66cf9150a8f",
-    "cronapp-framework-js": "git+https://github.com/technecloud/cronapp-framework-js.git#ffea7fc85282cb4d0b2cf18820ad060cefe3e0ac",
-    "cronapp-lib-js": "git+https://github.com/CronApp/cronapp-lib-js.git#7dc046462e42833cbe731c2ff073b9afc98de948"
+    "@cronapp/framework-core": "2.9.0-SNAPSHOT.10",
+    "cronapi-js": "git+https://github.com/technecloud/cronapi-js.git#3ffed46ab12698180ac696dc9ecb634ff548242e",
+    "cronapp-common-js": "git+https://github.com/CronApp/cronapp-common-js.git#09daf854d6c4c5c8dd2f20fee14d67ad2f85dc03",
+    "cronapp-framework-js": "git+https://github.com/technecloud/cronapp-framework-js.git#fa9c1198b7073a2867445cdd50b6e44b8ad69644",
+    "cronapp-lib-js": "git+https://github.com/CronApp/cronapp-lib-js.git#24c4d1e518cf20eba8d6560d9494f20631983be3"
   }
 }

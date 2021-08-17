@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="431.60000000000014" scrolly="-80.90000000000003" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="oj}_kDX;=u8W9B2VC.[-" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?`tZPBV/0?@uOLLYNbZ9" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field customattributes="" name="TEXT">abc</field>
+          </shadow>
+          <block asynccall="false" colour="#487f7f" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="BGxel,518BmMNrY2#*As" multilayer="false" namespace="cronapi.util.Operations.setCookie" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefinir%20Cookie%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20definir%20Cookie%20no%20navegador%20do%20usu%C3%A1rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Chave%20:%20Texto%3C/span%3E%3Cdiv%3E%20Chave%20do%20cookie%20a%20ser%20criado%3C/div%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cdiv%3E%20Valor%20do%20cookie%20a%20ser%20criado%3C/div%3E%3Cspan%3E%20-%20Unidade%20de%20medida%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Unidade%20de%20medida%20do%20tempo%20passado%20como%20par%C3%A2metro%3C/div%3E%3Cspan%3E%20-%20Expira%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cdiv%3E%20Tempo%20de%20expira%C3%A7%C3%A3o%20do%20cookie%20para%20o%20intervalo%20definido.%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.setCookie%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.setCookie%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.util.Operations.setCookie}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Chave"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Valor"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Unidade de medida"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Expiração"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Y/yTbLmB$:6HT?px?XQU" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT"/>
+              </shadow>
+            </value>
+            <value name="ARG1">
+              <shadow asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="2I5@t,E-RD@VNz@TM$1l" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT"/>
+              </shadow>
+            </value>
+            <value name="ARG2">
+              <block asynccall="false" colour="#487f7f" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="7Pg_h.CW]Y|V.K/G@5Z=" origintype="util_dropdown" output="true" type="util_dropdown">
+                <mutation>
+                  <arg name="SECONDS" value="Segundos"/>
+                  <arg name="MINUTES" value="Minutos"/>
+                  <arg name="HOURS" value="Horas"/>
+                  <arg name="DAYS" value="Dias"/>
+                </mutation>
+                <field customattributes="" name="SELECT">SECONDS</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <shadow asynccall="false" colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="35R_p*JPs9~Y4M=x_K:%" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Agz;hR-;t~0Vv;gW}a%~" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get" x="323" y="278">
+    <field customattributes="" name="VAR">nova</field>
+  </block>
+  <block asynccall="false" colour="#995ba5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="pAUWU`#eD7s+CoH)WS*z" multilayer="false" namespace="cronapi.validation.Operations.validateEmail" origintype="procedures_callreturn" output="true" returntype="ObjectType.BOOLEAN" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EValidar%20e-mail%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20validar%20e-mail.%20Retorna%20verdadeiro%20se%20o%20e-mail%20for%20v%C3%A1lido%20ou%20falso%20caso%20seja%20inv%C3%A1lido.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20E-mail%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20L%C3%B3gico%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://ide-i.cronapp.io/help?type=blockly&amp;amp;id=cronapi.validation.Operations.validateEmail%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" x="-337" y="353">
+    <mutation name="{{cronapi.validation.Operations.validateEmail}}" return-raw-type="cronapi.Var">
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="E-mail"/>
+    </mutation>
+    <value name="ARG0">
+      <shadow asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?#{a[ume#CM`JRzVK2{G" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field customattributes="" name="TEXT"/>
+      </shadow>
+    </value>
+  </block>
+</blockly>
